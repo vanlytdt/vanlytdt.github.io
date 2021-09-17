@@ -53,9 +53,16 @@ body {
             padding: 10px 30px 30px;
             border-radius: 10px;
             background: #f3f3f3;
+            transition-duration: .2s;
         }
         .grade-container:last-child{
             margin-right: 0;
+        }
+        .grade-container:hover {
+            transform: translate(-2px, -2px);
+            transition-duration: .2s;
+            box-shadow: 2px 2px 5px #00000055;
+            background: #e2e2e2;
         }
         .footer-container{
             width: 100%;
