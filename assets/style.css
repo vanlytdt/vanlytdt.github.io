@@ -153,16 +153,9 @@ a, a:visited, a:hover, a:active {
 }
 
 
-@media (max-width:380px) {
-    
-
-}
-
-
 
 @media (max-width:420px) {
 
-    
 }
 
 @media (max-width:600px) and (min-width:421px) {
@@ -177,9 +170,18 @@ a, a:visited, a:hover, a:active {
     
 }
 
-@media (max-width:768px) {
+@media only screen and  (max-width:768px) {
     
-
+    .grade-container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .logo {
+        display: none;
+    }
+    .bangdanhsach {
+        width: 50%;
+    }
 }
 
 @media (min-width:1024px) {
