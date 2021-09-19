@@ -152,9 +152,60 @@ a, a:visited, a:hover, a:active {
     transition-duration: .1s;
 }
 
-
+@media (max-width:420px) {
+    .grade-container {
+        padding: 10px 10px 30px;
+    }
+}
 
 @media (max-width:420px) {
+
+    .grade-container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .logo {
+        display: none;
+    }
+    .bangdanhsach {
+        width: 80%;
+    }
+    .header-name{
+        font-size: 20px;
+    }
+    .header-name-sub{
+        font-size: 15px;
+    }
+    .one-box {
+        width: 90%;
+        height: 35px;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 8px;
+        background: white;
+        position: relative;
+        transition-duration: .1s;
+        box-shadow: 1px 1px 2px #00000021;
+    }
+    .grade-name {
+        width: 100%;
+        border: none;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        background: navajowhite;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .one-box span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+    }
 
 }
 
@@ -185,7 +236,41 @@ a, a:visited, a:hover, a:active {
 }
 
 @media (min-width:1024px) {
-    
+    .bangdanhsach {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .grade-container {
+        width: 30%;
+        float: left;
+        margin-right: 4%;
+        border: solid 1px #eaeaea;
+        padding: 10px 20px 30px;
+        border-radius: 10px;
+        background: #f3f3f3;
+        transition-duration: .2s;
+    }
+    .logo img{
+        height: 100px!important;
+        width: 100px!important;
+    }
+
+    .header-name {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    .header-name-sub {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+    }
 
 }
 
